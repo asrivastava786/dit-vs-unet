@@ -1,0 +1,13 @@
+model: dit   # or unet
+
+training:
+  batch_size: 64
+  epochs: 50
+  lr: 1e-4
+
+diffusion:
+  timesteps: 1000
+
+logging:
+  use_wandb: true
+  project: dit-vs-unet
